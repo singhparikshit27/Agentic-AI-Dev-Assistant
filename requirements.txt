@@ -1,0 +1,8 @@
+streamlit
+pandas
+sqlalchemy
+python-dotenv
+litellm
+google-generativeai
+crewai
+requests
