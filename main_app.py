@@ -108,14 +108,14 @@ if not log_df.empty:
     
     # 1. Display the Audit Table
     st.subheader("Detailed Audit Log (Last 10 Actions)")
-    st.dataframe(log_df.head(10), use_container_width=True)
+    st.dataframe(log_df.head(10), width='stretch')
     
     # 2. Visualize the Action Breakdown
     st.subheader("Action Type Breakdown")
     action_counts = log_df['action_type'].value_counts()
     
     # Use a chart for visual impact
-    st.bar_chart(action_counts, use_container_width=True, color='#0077B6')
+    st.bar_chart(action_counts, width='stretch', color='#0077B6')
     
 
 else:
