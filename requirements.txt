@@ -4,5 +4,5 @@ sqlalchemy
 python-dotenv
 litellm
 google-generativeai
-crewai
+crewai[google-genai]
 requests
